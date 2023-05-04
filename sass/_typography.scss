@@ -3,8 +3,11 @@
     font-weight: 400;
 }
 
-.heading-1 {
+.heading_1 {
     @extend %heading;
+    font-size: 4.5rem;
+    color: $color-grey-light-1;
+    line-height: 1;
 }
 
 .heading-2 {
@@ -14,8 +17,7 @@
     line-height: 1;
 
 
-    &--light {
-        color: $color-grey-light-1;
+    &--light {color: $color-grey-light-1;
     }
 
     &--dark {
@@ -23,7 +25,7 @@
     }
 }
 
-.heading-3 {
+.heading_3 {
     @extend %heading;
     font-size: 1.6rem;
     color: $color-primary;
