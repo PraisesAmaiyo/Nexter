@@ -17,6 +17,7 @@ html {
 
 body {
   font-family: "Nunito", sans-serif;
+  font-display: swap;
   color: #6D5D4B;
   font-weight: 300;
   line-height: 1.6; }
@@ -53,7 +54,7 @@ body {
 
 .heading_3 {
   font-size: 1.6rem;
-  color: #c69963;
+  color: #B28451;
   text-transform: uppercase; }
 
 .heading-4 {
@@ -64,7 +65,7 @@ body {
     color: #54483A; }
 
 .btn {
-  background-color: #c69963;
+  background-color: #B28451;
   color: #fff;
   border: none;
   border-radius: 0;
